@@ -2,7 +2,7 @@
     <div>
     <Row class="banner">
         <Col span="6" class="circle-button"><Icon type="md-book" /></Col>
-        <Col span="6" class="circlse-button"><Icon type="md-book" /></Col>
+        <Col span="6" class="circle-button"><Icon type="md-book" /></Col>
         <Col span="6" class="circle-button"><Icon type="md-book" /></Col>
         <Col span="6" class="circle-button"><Icon type="md-book" /></Col>
     </Row>
