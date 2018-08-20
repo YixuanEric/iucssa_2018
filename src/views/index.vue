@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="index">
     <Navbar />
     <Carousel />
     <Banner />
@@ -35,6 +35,10 @@
 </script>
 
 <style scoped>
+
+.index{
+    background:#f4f4f4;
+}
 
 .intro{
     padding:80px;
