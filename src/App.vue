@@ -1,12 +1,21 @@
 <template>
   <div id="app">
+    <ProgressBar />
+    <Navbar />
     <router-view/>
   </div>
 </template>
 
 <script>
+import Navbar from './components/Navbar'
+import ProgressBar from './components/ProgressBar'
+
 export default {
-  name: 'App'
+  name: 'App',
+  components:{
+    Navbar,
+    ProgressBar
+  }
 }
 </script>
 

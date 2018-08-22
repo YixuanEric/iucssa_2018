@@ -4,11 +4,11 @@
         <img src="../../static/logo1.png">
         </div>
         <div class="item-group">
-        <MenuItem name="1">
+        <MenuItem name="1" to="/">
             <Icon type="md-home" />
             主页
         </MenuItem>
-        <MenuItem name="2">
+        <MenuItem name="2" to="about">
             <Icon type="md-people" />
             关于
         </MenuItem>

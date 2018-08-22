@@ -9,7 +9,7 @@
         </Col>
         <Col span="6">
         <div>  
-            <Icon type="md-book" class="circle-button"/>
+            <Icon type="md-link" class="circle-button"/>
             <span class="caption">实用链接</span>
         </div>
         </Col>

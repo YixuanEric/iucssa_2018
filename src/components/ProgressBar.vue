@@ -26,7 +26,7 @@
 
 <style scoped>
 .progress-bar{
-  height:.5%;
+  height:.4%;
   background-color:#7a1705;
   position:fixed;
   z-index:999;

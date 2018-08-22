@@ -1,7 +1,5 @@
 <template>
 <div class="index">
-    <ProgressBar />
-    <Navbar />
     <Carousel />
     <Banner />
     <div>
@@ -18,10 +16,8 @@
 </template>
 
 <script>
-    import Navbar from '../components/Navbar'
     import Carousel from '../components/Carousel'
     import Banner from '../components/Banner'
-    import ProgressBar from '../components/ProgressBar'
     
     export default{
         data(){
@@ -30,10 +26,8 @@
             }
         },
         components:{
-            Navbar,
             Carousel,
-            Banner,
-            ProgressBar
+            Banner
         }
     }
 </script>
