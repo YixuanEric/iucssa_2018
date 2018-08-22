@@ -20,6 +20,13 @@
                 var scrollTop = window.pageYOffset
                 this.progressWidth = scrollTop /(document.body.clientHeight - document.documentElement.clientHeight)*100 + '%'
             }
+    },
+    watch:{
+      $route:{
+        handler(){
+          this.progressWidth = ''
+        }
+      }
     }
   }
 </script>

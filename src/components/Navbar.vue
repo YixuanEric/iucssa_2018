@@ -1,5 +1,5 @@
 <template>
-    <Menu mode="horizontal" :theme="theme" active-name="1" :class="isScrolled? 'scrolled':'nav'">
+    <Menu mode="horizontal" :theme="theme" :class="isScrolled? 'scrolled':'nav'">
         <div class="logo">
         <img src="../../static/logo1.png">
         </div>

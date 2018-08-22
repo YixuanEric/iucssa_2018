@@ -35,7 +35,7 @@
 <style scoped>
 
 .index{
-    background:#f4f4f4;
+    background-color:#f4f4f4;
 }
 
 .intro{
