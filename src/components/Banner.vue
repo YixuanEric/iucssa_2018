@@ -69,5 +69,6 @@
     display:block;
     margin-top:15px;
     font-size:1.5em;
+    font-weight:600;
 }
 </style>

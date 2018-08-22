@@ -125,11 +125,12 @@
   padding:80px 50px;
   background-color:#ffffff;
   font-size:1.3em;
+  font-weight:700;
   margin-top:-5%;
   margin-right:50%;
   margin-left:5%;
   line-height:2.5em;
-  box-shadow:5px 5px 5px #7a1705;
+  box-shadow:5px 5px 5px #701f10;
   border-radius:2px;
   display:flex;
   justify-content:space-around;
@@ -143,23 +144,23 @@
   margin-bottom:6%;
 }
 .caption{
-  flex-basis:200%;
+  flex-basis:150%;
 }
 
 .card{
-  width:95%;
+  width:80%;
   margin:0 auto;
-  padding:80px 50px;
+  padding:10px 20px;
   background-color:#ffffff;
-  font-size:1.3em;
-  box-shadow:3px 3px 3px #7a1705;
+  font-size:1.2em;
   border-radius:2px;
   display:flex;
   align-items:center;
+  box-shadow:5px 5px 5px #701f10;
 }
 
 .photo{
-  flex-basis:200%;
+  flex-basis:300%;
 }
 .photo img{
   width:100%;
@@ -167,7 +168,7 @@
 
 .intro-photo{
   margin-left:5%;
-  flex-basis:auto;
+  flex-basis:200%;
 }
 .intro-photo img{
   width:100%;
