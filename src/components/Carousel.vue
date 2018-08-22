@@ -1,5 +1,9 @@
 <template>
     <div class="carousel">
+    <div class="title">
+    IUCSSA<br />
+    中国学生学者联谊会
+    </div>
     <Carousel 
         v-model="value"
         :autoplay="setting.autoplay"
@@ -59,4 +63,14 @@ img{
     width:100%;
     
 }
+.title{
+    width:50%;
+    margin-left:25%;
+    top:20%;
+    position:absolute;
+    z-index:1;
+    color:white;
+    font-size:5em;
+}
+
 </style>

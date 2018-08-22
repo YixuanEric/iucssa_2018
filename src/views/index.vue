@@ -1,5 +1,6 @@
 <template>
 <div class="index">
+    
     <Carousel />
     <Banner />
     <div>
