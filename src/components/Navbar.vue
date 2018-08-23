@@ -91,4 +91,13 @@
     transition:0.1s;
     box-shadow: 3px 1px 1px #7f7f7f
 }
+
+@media only screen and (max-width: 600px) {
+    .item-group{
+        display:none;
+    }
+    .logo{
+        display:none;
+    }
+}
 </style>

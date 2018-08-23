@@ -109,7 +109,7 @@
 <style scoped>
 .about{
   background-color:#f4f4f4;
-  
+  height:100%;
 }
 .banner{
   max-height:400px;
