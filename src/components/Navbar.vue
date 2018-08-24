@@ -64,7 +64,7 @@
     transition:0.2s;
 }
 
-.nav::after{
+.ivu-menu-horizontal.ivu-menu-light:after {
     display:none;
 }
 
