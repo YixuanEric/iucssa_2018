@@ -3,18 +3,21 @@
     <ProgressBar />
     <Navbar />
     <router-view/>
+    <Footnote />
   </div>
 </template>
 
 <script>
 import Navbar from './components/Navbar'
 import ProgressBar from './components/ProgressBar'
+import Footnote from './components/Footnote'
 
 export default {
   name: 'App',
   components:{
     Navbar,
-    ProgressBar
+    ProgressBar,
+    Footnote
   }
 }
 </script>

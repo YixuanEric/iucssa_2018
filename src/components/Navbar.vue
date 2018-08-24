@@ -1,12 +1,13 @@
 <template>
     <Menu mode="horizontal" :theme="theme" :class="isScrolled? 'scrolled':'nav'">
-        <div class="logo">
+        <router-link to="/"><div class="logo">
         <img src="../../static/logo.png">
         </div>
+        </router-link>
 
-        <div class="logo-phone">
+        <router-link to="/"><div class="logo-phone">
         <span> IUCSSA </span>
-        </div>
+        </div></router-link>
         <div class="item-group">
         <MenuItem name="1" to="/">
             <Icon type="md-home" />
@@ -16,7 +17,7 @@
             <Icon type="md-people" />
             关于
         </MenuItem>
-        <MenuItem name="4">
+        <MenuItem name="4" to="/news">
             <Icon type="md-list" />
             事件
         </MenuItem>
@@ -107,7 +108,10 @@
         display:none;
     }
     .logo{
-        display:none;
+        position:absolute;
+        left:65%;
+        top:22%;
+        width:120px;
     }
     .logo-phone{
         display:block;
@@ -115,6 +119,7 @@
         top:1.2%;
         left:5%;
         font-size:1.2em;
+        color:#7a1705;
     }
 }
 </style>

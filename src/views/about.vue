@@ -3,7 +3,9 @@
     <div class="banner">
     <img src="../../static/cropped/4.jpg">
     </div>
-
+    <Row class="section-title">
+    <h1>关于我们</h1>
+    </Row>
     <Row>
         <div class="intro">
         <div class="intro-photo">
@@ -29,18 +31,15 @@
         </div>
         </div>
     </Row>
-
     <Row>
         <div class="department">
         
         <div class="caption">
-        <h2>活动部</h2>
-        <p>部长：</p>
-        <p>副主席：吴一凡</p>
-        <p>副主席：刘一帆</p>
+        <h2>Treasure</h2>
+        <p>周辰</p>
         </div>
         <div class="intro-photo">
-        <img src="../../static/images/a.jpeg">
+        <img src="../../static/images/treasure.jpeg" style="width:80%">
         </div>
         </div>
     </Row>
@@ -49,9 +48,24 @@
         
         <div class="caption">
         <h2>活动部</h2>
-        <p>部长：</p>
-        <p>副主席：吴一凡</p>
-        <p>副主席：刘一帆</p>
+        <p>部长：宣浩东</p>
+        <p>副部长 ：曾浩然 张培博</p>
+        <p>干事：方均安 李苏 冯舒婷 杨理睿 王卓昊 郭虎生 李昊铭 孙伟强
+考核期干事 ：欧阳雨欣 黄元泓 罗雪滢 许刘璇 杜逸豪</p>
+        </div>
+        <div class="intro-photo">
+        <img src="../../static/images/a.jpeg" style="width:80%">
+        </div>
+        </div>
+    </Row>
+    <Row>
+        <div class="department">
+        
+        <div class="caption">
+        <h2>金融部</h2>
+        <p>部长：于嘉林</p>
+        <p>副部长：李晓苇 何宇瑄</p>
+        <p>干事：李泽逸 麦嘉祺 王嘉豪 傅泽楠 陈浩生</p>
         </div>
         <div class="intro-photo">
         <img src="../../static/images/f.jpeg">
@@ -62,10 +76,10 @@
         <div class="department">
         
         <div class="caption">
-        <h2>活动部</h2>
-        <p>部长：</p>
-        <p>副主席：吴一凡</p>
-        <p>副主席：刘一帆</p>
+        <h2>职业规划发展部</h2>
+        <p>部长: 苏稚淇</p>
+        <p>副部长：林雨晴 陈垚光</p>
+        <p>干事：刘佳明 黄鑫淼 刘子易 刘新宇 倪泽艺 蒋金金 </p>
         </div>
         <div class="intro-photo">
         <img src="../../static/images/cda.jpeg">
@@ -76,16 +90,17 @@
         <div class="department">
         
         <div class="caption">
-        <h2>活动部</h2>
-        <p>部长：</p>
-        <p>副主席：吴一凡</p>
-        <p>副主席：刘一帆</p>
+        <h2>网络部</h2>
+        <p>部长：王翌轩</p>
+        <p>干事：刘梓萌 张楚萱</p>
         </div>
         <div class="intro-photo">
-        <img src="../../static/images/m.jpg">
+        <img src="../../static/images/it.jpg" style="width:80%">
         </div>
         </div>
     </Row>
+    
+    
   </div>
 </template>
 
@@ -144,7 +159,20 @@
   align-items:center;
 }
 .caption{
-  flex-basis:200%;
+  flex-basis:180%;
+  padding: 0 2em;
+}
+.section-title{
+    margin-top:1em;
+    margin-bottom:-2em;
+}
+@media only screen and (max-width: 600px) {
+    .department{
+        display:block;
+    }
+    .intro-photo img{
+    width:90%;
+}
 }
 
 </style>
